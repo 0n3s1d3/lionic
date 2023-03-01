@@ -429,6 +429,12 @@ body {
   background-color: #0E3B6C;
 }
 
+.articles-center {
+  display: none;
+  text-align: center;
+  padding-top: 25px;
+}
+
 /* clients */
 .clients {
   border-bottom: 1px solid #dadada;

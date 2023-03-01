@@ -160,7 +160,7 @@
 
   .clients-item {
     margin-bottom: var(--gap);
-    width: calc((100% - var(--gap)) / 2 );
+    width: calc((100% - var(--gap)) / 2);
   }
 
   .clients-item:not(:nth-child(3n)) {
@@ -175,6 +175,22 @@
 @media (max-width: 576px) {
   :root {
     --gap: 15px;
+  }
+
+  .articles-item:nth-child(-n + 2) {
+    display: none;
+  }
+
+  .articles-item.articles-item--visible {
+    display: block;
+  }
+
+  .articles-center {
+    display: block;
+  }
+
+  .articles-center--hidden {
+    display: none;
   }
 
   .header {
@@ -293,7 +309,7 @@
   }
 
   .articles-list {
-    margin-bottom: calc(-1.2*var(--gap));
+    margin-bottom: calc(-1.2 * var(--gap));
   }
 
   .clients-list {
